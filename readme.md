@@ -7,3 +7,5 @@
 
 ### have a look at the cachecontrollerattribute
 ### connection information at appsettings.json
+### cache implemented in authcontroller
+
