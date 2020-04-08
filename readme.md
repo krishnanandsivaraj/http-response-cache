@@ -9,7 +9,12 @@
 ### connection information at appsettings.json
 ### cache implemented in authcontroller
 
+#### before cache
+
 ![enter image description here](https://github.com/krishnanandsivaraj/http-response-cache/blob/master/me1.JPG)
+
+
+#### after cache
 
 ![enter image description here](https://github.com/krishnanandsivaraj/http-response-cache/blob/master/me2.JPG)
 
