@@ -14,7 +14,7 @@
 ![enter image description here](https://github.com/krishnanandsivaraj/http-response-cache/blob/master/me1.JPG)
 
 
-#### after cache (1 second)
+#### after cache (<1 second)
 
 ![enter image description here](https://github.com/krishnanandsivaraj/http-response-cache/blob/master/me2.JPG)
 
