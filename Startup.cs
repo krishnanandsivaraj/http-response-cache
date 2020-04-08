@@ -85,7 +85,7 @@ namespace Web.Api {
             // DI Injection 
             services.AddSingleton<IAuthService, AuthService>();
             services.AddSingleton<IRepositoryFacade, RepositoryFacade>();
-            services.AddScoped<PalliumCacheControllerAttribute>();
+            services.AddScoped<CacheControllerAttribute>();
             //services.AddAuthentication();
         }
 

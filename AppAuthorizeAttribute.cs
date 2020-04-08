@@ -4,7 +4,7 @@ using System;
 
 namespace Web.Api
 {
-    public class AFESAuthorizeAttribute : Attribute, IAuthorizationFilter
+    public class AppAuthorizeAttribute : Attribute, IAuthorizationFilter
     {
         public void OnAuthorization(AuthorizationFilterContext context)
         {

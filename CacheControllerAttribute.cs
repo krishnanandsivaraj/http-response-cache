@@ -9,12 +9,12 @@ using Web.Api.Infrastructure.Repositories;
 
 namespace Web.Api
 {
-    public class PalliumCacheControllerAttribute : ActionFilterAttribute
+    public class CacheControllerAttribute : ActionFilterAttribute
     {
         private readonly IRepositoryFacade _repositoryFacade;
         public IConfiguration Configuration { get; }
 
-        public PalliumCacheControllerAttribute(IRepositoryFacade repositoryFacade)
+        public CacheControllerAttribute(IRepositoryFacade repositoryFacade)
         {
             this._repositoryFacade = repositoryFacade;
         }

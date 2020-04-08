@@ -19,8 +19,8 @@ namespace Web.Api.Modules.Auth {
 
     [Route ("api/[controller]")]
     [ApiController]
-    [AFESAuthorize]
-    [ServiceFilter(typeof(PalliumCacheControllerAttribute))]
+    [AppAuthorize]
+    [ServiceFilter(typeof(CacheControllerAttribute))]
     public class AuthController : ControllerBase {
 
         private readonly IAuthService _authService;
